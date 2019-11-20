@@ -1,0 +1,484 @@
+S.No.,Combination,Mean Absolute Error,Mean Squared Error
+1,Ref/Doc,1.6101823728647546,2.7625018943318222
+2,Cites/Docs(2years),0.3888522146901777,0.21352850138680762
+3,Cites/Docs(2years)+Ref/Doc,1.1075994997134988,1.3735494850622325
+4,Citable Docs(3years),0.8173709677419354,0.8379099193548389
+5,Citable Docs(3years)+Ref/Doc,2.664901785981629,7.271516149375522
+6,Citable Docs(3years)+Cites/Docs(2years),0.9372506745803005,1.0482534474486802
+7,Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,2.2872328132917934,5.4012485626461455
+8,Total Cites(3years),10.190986324187248,104.02601688021896
+9,Total Cites(3years)+Ref/Doc,0.3478370328981273,0.23059008816553103
+10,Total Cites(3years)+Cites/Docs(2years),0.36519831276114667,0.2511427171867289
+11,Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,14.017091208161325,196.64866055836094
+12,Total Cites(3years)+Citable Docs(3years),3.984224269186003e+16,1.587404302717078e+33
+13,Total Cites(3years)+Citable Docs(3years)+Ref/Doc,50.740194769716155,2574.737179889176
+14,Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),8.10859652949482,65.91915229858287
+15,Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,1.4208513689009288,2.1886332329550937
+16,Total Refs,4.329402340058359,18.913539242550225
+17,Total Refs+Ref/Doc,1.081762724890602,1.3156789247512386
+18,Total Refs+Cites/Docs(2years),1.122723228496183,1.4080858664519267
+19,Total Refs+Cites/Docs(2years)+Ref/Doc,1.6906590438623958,3.0281426230411634
+20,Total Refs+Citable Docs(3years)+Ref/Doc,8.73797753857595,76.52206608510521
+21,Total Refs+Citable Docs(3years)+Cites/Docs(2years),820.6350757715223,673442.0974011538
+22,Total Refs+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,2.0571004223119584,4.4014767679234925
+23,Total Refs+Total Cites(3years),3.1091201156907474e+18,9.666627893792847e+36
+24,Total Refs+Total Cites(3years)+Ref/Doc,1443.9636238571027,2085031.1168371583
+25,Total Refs+Total Cites(3years)+Cites/Docs(2years),108.50167295777166,11772.78284925569
+26,Total Refs+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,1.2259002968823076,1.6567331098765685
+27,Total Refs+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,3.043423145848177e+17,9.26242444468441e+34
+28,Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),2.0515146371319402e+17,4.208712306366605e+34
+29,Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,54.00941480709261,2917.1867024250428
+30,Total Docs(3years),0.8173709677419354,0.8379099193548389
+31,Total Docs(3years)+Ref/Doc,0.40986984842747964,0.2313524362366833
+32,Total Docs(3years)+Cites/Docs(2years),0.5452994686895779,0.3768693457271806
+33,Total Docs(3years)+Cites/Docs(2years)+Ref/Doc,0.8947535292253408,0.9348424041133417
+34,Total Docs(3years)+Citable Docs(3years)+Ref/Doc,3.559112086699927,12.837093466140962
+35,Total Docs(3years)+Citable Docs(3years)+Cites/Docs(2years),334.640303914251,111984.30281844258
+36,Total Docs(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,0.34112989651607234,0.18024550693276803
+37,Total Docs(3years)+Total Cites(3years),1.4352368591068238e+16,2.059904841738831e+32
+38,Total Docs(3years)+Total Cites(3years)+Ref/Doc,67.93617251001467,4615.493349930918
+39,Total Docs(3years)+Total Cites(3years)+Cites/Docs(2years),14.07943643229033,198.40034487135185
+40,Total Docs(3years)+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,0.9734249195099348,1.0881781312184442
+41,Total Docs(3years)+Total Cites(3years)+Citable Docs(3years),2.2633136376704296e+32,5.122588622464964e+64
+42,Total Docs(3years)+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,6554892640701475.0,4.2966617531122475e+31
+43,Total Docs(3years)+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),4.451648427060234e+16,1.9817173718147974e+33
+44,Total Docs(3years)+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,1.0335883845293683,1.2381195690814812
+45,Total Docs(3years)+Total Refs,1.0874208415855695e+18,1.1824840867146636e+36
+46,Total Docs(3years)+Total Refs+Ref/Doc,1.5775508598173376,2.6584813357578705
+47,Total Docs(3years)+Total Refs+Cites/Docs(2years),13.271791756745083,176.31027105485413
+48,Total Docs(3years)+Total Refs+Cites/Docs(2years)+Ref/Doc,2.713516836260182,7.532988241114918
+49,Total Docs(3years)+Total Refs+Citable Docs(3years)+Ref/Doc,1.454756117978601e+18,2.1163153627961744e+36
+50,Total Docs(3years)+Total Refs+Citable Docs(3years)+Cites/Docs(2years),7.104600838040345e+16,5.047535306788334e+33
+51,Total Docs(3years)+Total Refs+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,27.702964028483997,767.6240305839251
+52,Total Docs(3years)+Total Refs+Total Cites(3years),3.365928762296073e+34,1.132947643285197e+69
+53,Total Docs(3years)+Total Refs+Total Cites(3years)+Ref/Doc,1.3275384216976312e+18,1.7623582610834383e+36
+54,Total Docs(3years)+Total Refs+Total Cites(3years)+Cites/Docs(2years),1.4185109841326932e+18,2.0121734121051195e+36
+55,Total Docs(3years)+Total Refs+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,7.5598801230234605,57.321602094932715
+56,Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,3.1133538530856454e+17,9.692972214523187e+34
+57,Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),1.2018441714293484e+18,1.4444294123986993e+36
+58,Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,7.961761990932938e+17,6.338965400026453e+35
+59,Total Docs(2017),0.8173709677419354,0.8379099193548389
+60,Total Docs(2017)+Ref/Doc,1.0008767815371642,1.1437238064299964
+61,Total Docs(2017)+Cites/Docs(2years),1.4602524658443587,2.2959622040919463
+62,Total Docs(2017)+Cites/Docs(2years)+Ref/Doc,1.2489152670038453,1.715298224096169
+63,Total Docs(2017)+Citable Docs(3years),2.5305372272317624e+16,6.4036186584058245e+32
+64,Total Docs(2017)+Citable Docs(3years)+Ref/Doc,3.2881475749211067,10.981729094907008
+65,Total Docs(2017)+Citable Docs(3years)+Cites/Docs(2years),100.07385221624779,10014.945712019846
+66,Total Docs(2017)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,1.2233626676711333,1.6503449618695065
+67,Total Docs(2017)+Total Cites(3years),6.5581786107025416e+16,4.300970668987631e+33
+68,Total Docs(2017)+Total Cites(3years)+Ref/Doc,3.146305744928888,10.06905446101998
+69,Total Docs(2017)+Total Cites(3years)+Cites/Docs(2years),5.562951785117381,31.116247183988115
+70,Total Docs(2017)+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,1.1160033611315041,1.3926801505070368
+71,Total Docs(2017)+Total Cites(3years)+Citable Docs(3years),1.6889079294649649e+34,2.8524099942096127e+68
+72,Total Docs(2017)+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,1.6829785632375773e+17,2.8324168443172156e+34
+73,Total Docs(2017)+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),2.8644380749169875e+17,8.205005485034171e+34
+74,Total Docs(2017)+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,5.97868554299155,35.914495442423586
+75,Total Docs(2017)+Total Refs,7.933300534550212e+17,6.293725737149497e+35
+76,Total Docs(2017)+Total Refs+Ref/Doc,17.225422114302685,296.88498163635603
+77,Total Docs(2017)+Total Refs+Cites/Docs(2years),68.76513165797097,4728.813146558525
+78,Total Docs(2017)+Total Refs+Cites/Docs(2years)+Ref/Doc,1.0400330631609949,1.225221270306339
+79,Total Docs(2017)+Total Refs+Citable Docs(3years)+Ref/Doc,1.8502176699792837e+18,3.42330542630358e+36
+80,Total Docs(2017)+Total Refs+Citable Docs(3years)+Cites/Docs(2years),9.92323692489134e+17,9.847063106752717e+35
+81,Total Docs(2017)+Total Refs+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,3.3723400242490755,11.542491859599707
+82,Total Docs(2017)+Total Refs+Total Cites(3years),8.205535744908377e+33,6.733081686096929e+67
+83,Total Docs(2017)+Total Refs+Total Cites(3years)+Ref/Doc,2.7139887105415882e+17,7.365734720947154e+34
+84,Total Docs(2017)+Total Refs+Total Cites(3years)+Cites/Docs(2years),1.778264388793424e+18,3.162224236450841e+36
+85,Total Docs(2017)+Total Refs+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,426.52557687835207,181924.2375460313
+86,Total Docs(2017)+Total Refs+Total Cites(3years)+Citable Docs(3years),2.04579477318251e+51,4.1852762539808974e+102
+87,Total Docs(2017)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,6.224915701409158e+18,3.874957548965019e+37
+88,Total Docs(2017)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),6.344386844204756e+16,4.0251244428918597e+33
+89,Total Docs(2017)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,1.8189553219478152e+18,3.308598463242273e+36
+90,Total Docs(2017)+Total Docs(3years),1.3089800627182384e+17,1.713428804593838e+34
+91,Total Docs(2017)+Total Docs(3years)+Ref/Doc,5.3910147334074585,29.23285447626374
+92,Total Docs(2017)+Total Docs(3years)+Cites/Docs(2years),15.295834648931518,234.13237222790133
+93,Total Docs(2017)+Total Docs(3years)+Cites/Docs(2years)+Ref/Doc,1.2081021583170417,1.612218653019701
+94,Total Docs(2017)+Total Docs(3years)+Citable Docs(3years)+Ref/Doc,4.401122083138561e+16,1.9369875590689953e+33
+95,Total Docs(2017)+Total Docs(3years)+Citable Docs(3years)+Cites/Docs(2years),7.096914310846002e+17,5.036619273549074e+35
+96,Total Docs(2017)+Total Docs(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,408.6377767515519,166985.00240307173
+97,Total Docs(2017)+Total Docs(3years)+Total Cites(3years),1.6427283754818697e+32,2.6985565156133123e+64
+98,Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Ref/Doc,9.114822347107858e+18,8.307998641933654e+37
+99,Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Cites/Docs(2years),1.3853462289157972e+18,1.919184173971221e+36
+100,Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,9.697456791572218,94.21048284485764
+101,Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,4.6680869283762374e+17,2.1791035570877126e+35
+102,Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),3.741745927149576e+17,1.4000662583340538e+35
+103,Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,9.444553998927888e+16,8.919960023866538e+33
+104,Total Docs(2017)+Total Docs(3years)+Total Refs,1.1016703687687967e+34,1.213677601423179e+68
+105,Total Docs(2017)+Total Docs(3years)+Total Refs+Ref/Doc,2.112749721683342e+17,4.463711386473041e+34
+106,Total Docs(2017)+Total Docs(3years)+Total Refs+Cites/Docs(2years),3.88649131905843e+17,1.510481477311649e+35
+107,Total Docs(2017)+Total Docs(3years)+Total Refs+Cites/Docs(2years)+Ref/Doc,10.165200645376592,103.50111878121206
+108,Total Docs(2017)+Total Docs(3years)+Total Refs+Citable Docs(3years)+Ref/Doc,4.804747395208185e+16,2.3085597531759798e+33
+109,Total Docs(2017)+Total Docs(3years)+Total Refs+Citable Docs(3years)+Cites/Docs(2years),4.7125223508789856e+17,2.220786690753398e+35
+110,Total Docs(2017)+Total Docs(3years)+Total Refs+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,6.118141505296471e+17,3.743165547883161e+35
+111,Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Ref/Doc,3.281452615049135e+17,1.076793126481283e+35
+112,Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Cites/Docs(2years),4.752181614867725e+18,2.2583230100686944e+37
+113,Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,8.788404915521836e+17,7.723606095916871e+35
+114,Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,3.721502961668911e+18,1.384958429371042e+37
+115,Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),1.8141627110158502e+18,3.291186342040386e+36
+116,Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,5.423218448876859e+16,2.9411298344238476e+33
+117,H-Index,0.8173709677419354,0.8379099193548389
+118,H-Index+Ref/Doc,0.5848122593087016,0.428172362466036
+119,H-Index+Cites/Docs(2years),8.00960855348614,64.32364380052579
+120,H-Index+Cites/Docs(2years)+Ref/Doc,1.0696578334586648,1.2890561641733038
+121,H-Index+Citable Docs(3years),2.2118707313942496e+17,4.892372132398501e+34
+122,H-Index+Citable Docs(3years)+Ref/Doc,15.562857101429573,242.37233577996437
+123,H-Index+Citable Docs(3years)+Cites/Docs(2years),33.37936346132741,1114.3517197038473
+124,H-Index+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,0.5507381640497372,0.38359423769105716
+125,H-Index+Total Cites(3years),1.632895977076527e+17,2.6663492719526955e+34
+126,H-Index+Total Cites(3years)+Ref/Doc,5.801750855316426,33.83012760761237
+127,H-Index+Total Cites(3years)+Cites/Docs(2years),2.843495359883837,8.255280482128358
+128,H-Index+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,1.1127474444465717,1.3852504397682754
+129,H-Index+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,5.7699501561828344e+16,3.32923248048343e+33
+130,H-Index+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),2.9194596040148966e+17,8.523244379474788e+34
+131,H-Index+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,22.818718621646948,520.8637341543453
+132,H-Index+Total Refs,2.5021164505534166e+17,6.26058673213006e+34
+133,H-Index+Total Refs+Ref/Doc,0.3815778221011183,0.20786887569827567
+134,H-Index+Total Refs+Cites/Docs(2years),7.787875570120758,60.820820516131164
+135,H-Index+Total Refs+Cites/Docs(2years)+Ref/Doc,1.9793846809799283,4.087778335745461
+136,H-Index+Total Refs+Citable Docs(3years),6.170903256416081e+34,3.808004700004655e+69
+137,H-Index+Total Refs+Citable Docs(3years)+Ref/Doc,3.002463988599235e+17,9.014790002835224e+34
+138,H-Index+Total Refs+Citable Docs(3years)+Cites/Docs(2years),2.8055787829190352e+17,7.871272307165528e+34
+139,H-Index+Total Refs+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,35.4615422291117,1257.6907918875202
+140,H-Index+Total Refs+Total Cites(3years),4.557523572762699e+35,2.0771021116287743e+71
+141,H-Index+Total Refs+Total Cites(3years)+Ref/Doc,2.1480147162697328e+17,4.613967221311361e+34
+142,H-Index+Total Refs+Total Cites(3years)+Cites/Docs(2years),3.062107939706116e+18,9.376505034411286e+36
+143,H-Index+Total Refs+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,2.4301798549157483,6.075588747685778
+144,H-Index+Total Refs+Total Cites(3years)+Citable Docs(3years),4.1471913948257745e+51,1.7199196465316925e+103
+145,H-Index+Total Refs+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,2.142683948527866e+20,4.59109450327896e+40
+146,H-Index+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),2.011991720565907e+18,4.0481106836257664e+36
+147,H-Index+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,1.3040539956317688e+18,1.7005568235231714e+36
+148,H-Index+Total Docs(3years),9.289716198627938e+16,8.629882705105001e+33
+149,H-Index+Total Docs(3years)+Ref/Doc,28.199777226746626,795.3972502585854
+150,H-Index+Total Docs(3years)+Cites/Docs(2years),88.2515418402605,7788.504451803693
+151,H-Index+Total Docs(3years)+Cites/Docs(2years)+Ref/Doc,10.392986840070476,108.18399007832555
+152,H-Index+Total Docs(3years)+Citable Docs(3years)+Ref/Doc,5.272491668840067e+16,2.7799168397987924e+33
+153,H-Index+Total Docs(3years)+Citable Docs(3years)+Cites/Docs(2years),1.8482804913322147e+17,3.4161407746392686e+34
+154,H-Index+Total Docs(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,3160.3509580738228,9987818.348012758
+155,H-Index+Total Docs(3years)+Total Cites(3years),3.8082342046618893e+33,1.450264775755679e+67
+156,H-Index+Total Docs(3years)+Total Cites(3years)+Ref/Doc,6.358037669366192e+16,4.042464300507968e+33
+157,H-Index+Total Docs(3years)+Total Cites(3years)+Cites/Docs(2years),1.040316450061221e+18,1.082258316267979e+36
+158,H-Index+Total Docs(3years)+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,1.0329519409118998e+16,1.0669897122336665e+32
+159,H-Index+Total Docs(3years)+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,4.292870747910085e+17,1.8428739258262133e+35
+160,H-Index+Total Docs(3years)+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),1.5189487173638192e+17,2.307205205981207e+34
+161,H-Index+Total Docs(3years)+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,1.6717697464534813e+17,2.7948140851571425e+34
+162,H-Index+Total Docs(3years)+Total Refs,5.3828348361793245e+34,2.8974910873585612e+69
+163,H-Index+Total Docs(3years)+Total Refs+Ref/Doc,5.097842594087492e+16,2.598799911409273e+33
+164,H-Index+Total Docs(3years)+Total Refs+Cites/Docs(2years),1.3682546051136106e+17,1.8721206644146039e+34
+165,H-Index+Total Docs(3years)+Total Refs+Cites/Docs(2years)+Ref/Doc,70.58448139064798,4982.338827807179
+166,H-Index+Total Docs(3years)+Total Refs+Citable Docs(3years)+Ref/Doc,7.712328464829138e+16,5.948001034941366e+33
+167,H-Index+Total Docs(3years)+Total Refs+Citable Docs(3years)+Cites/Docs(2years),8.549650723866009e+18,7.30965275001022e+37
+168,H-Index+Total Docs(3years)+Total Refs+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,1.913797686461398e+17,3.6626215847049954e+34
+169,H-Index+Total Docs(3years)+Total Refs+Total Cites(3years),6.313085595442739e+50,3.985504973538647e+101
+170,H-Index+Total Docs(3years)+Total Refs+Total Cites(3years)+Ref/Doc,2.174326559724796e+18,4.727695988324648e+36
+171,H-Index+Total Docs(3years)+Total Refs+Total Cites(3years)+Cites/Docs(2years),9.289999513212815e+18,8.630409095549433e+37
+172,H-Index+Total Docs(3years)+Total Refs+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,1.1225257237195555e+17,1.260064000412106e+34
+173,H-Index+Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,4.558991236917059e+17,2.0784401098286537e+35
+174,H-Index+Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),8.071805337136468e+34,6.5154041400624325e+69
+175,H-Index+Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,7.385594447270036e+17,5.454700533954564e+35
+176,H-Index+Total Docs(2017)+Ref/Doc,84.50185757191916,7140.733747725358
+177,H-Index+Total Docs(2017)+Cites/Docs(2years),15.830275164022462,250.76742638911378
+178,H-Index+Total Docs(2017)+Cites/Docs(2years)+Ref/Doc,1.7910195763018835,3.377565743144028
+179,H-Index+Total Docs(2017)+Citable Docs(3years),1.810219415216394e+33,3.276894331226393e+66
+180,H-Index+Total Docs(2017)+Citable Docs(3years)+Ref/Doc,5.432086549426175e+17,2.9507564280456644e+35
+181,H-Index+Total Docs(2017)+Citable Docs(3years)+Cites/Docs(2years),6.656052368863341e+16,4.430303313705154e+33
+182,H-Index+Total Docs(2017)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,68.7734371183059,4729.955467686027
+183,H-Index+Total Docs(2017)+Total Cites(3years),1.341858177965157e+33,1.8005833697719715e+66
+184,H-Index+Total Docs(2017)+Total Cites(3years)+Ref/Doc,3.069070616216424e+17,9.41919444732309e+34
+185,H-Index+Total Docs(2017)+Total Cites(3years)+Cites/Docs(2years),2.680608346716662e+17,7.185661108487064e+34
+186,H-Index+Total Docs(2017)+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,37.132532200302826,1378.9947622269751
+187,H-Index+Total Docs(2017)+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,1.5019687420081172e+16,2.2559101019694607e+32
+188,H-Index+Total Docs(2017)+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),2.8557802178414694e+17,8.155480652614728e+34
+189,H-Index+Total Docs(2017)+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,2.4733321050543148e+16,6.117371701892417e+32
+190,H-Index+Total Docs(2017)+Total Refs,5.8071201941162625e+35,3.3722644948913037e+71
+191,H-Index+Total Docs(2017)+Total Refs+Ref/Doc,3.2978907234763686e+19,1.087608322399142e+39
+192,H-Index+Total Docs(2017)+Total Refs+Cites/Docs(2years),8.188905478208823e+19,6.705817293103824e+39
+193,H-Index+Total Docs(2017)+Total Refs+Cites/Docs(2years)+Ref/Doc,0.36845414176486146,0.1981622664514891
+194,H-Index+Total Docs(2017)+Total Refs+Citable Docs(3years),1.7481920693406276e+51,3.0561755113054643e+102
+195,H-Index+Total Docs(2017)+Total Refs+Citable Docs(3years)+Ref/Doc,8.512975717008147e+18,7.247075555837059e+37
+196,H-Index+Total Docs(2017)+Total Refs+Citable Docs(3years)+Cites/Docs(2years),5.126416100950833e+17,2.6280142040087817e+35
+197,H-Index+Total Docs(2017)+Total Refs+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,7.683447820378388e+17,5.903537040847723e+35
+198,H-Index+Total Docs(2017)+Total Refs+Total Cites(3years)+Ref/Doc,5.990901136756978e+18,3.589089643039631e+37
+199,H-Index+Total Docs(2017)+Total Refs+Total Cites(3years)+Cites/Docs(2years),3.0730430950091678e+19,9.443593863783577e+38
+200,H-Index+Total Docs(2017)+Total Refs+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,8.627495533933961e+17,7.443367918805011e+35
+201,H-Index+Total Docs(2017)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,3.334840960000923e+18,1.1121164228499938e+37
+202,H-Index+Total Docs(2017)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),1.8353312471193807e+35,3.368440786652778e+70
+203,H-Index+Total Docs(2017)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,9.508944176493567e+17,9.042001935167106e+35
+204,H-Index+Total Docs(2017)+Total Docs(3years)+Ref/Doc,4064535434035185.5,1.6520448294527563e+31
+205,H-Index+Total Docs(2017)+Total Docs(3years)+Cites/Docs(2years),1.864431481285075e+18,3.476104748406852e+36
+206,H-Index+Total Docs(2017)+Total Docs(3years)+Cites/Docs(2years)+Ref/Doc,660.8070407183366,436666.1148775462
+207,H-Index+Total Docs(2017)+Total Docs(3years)+Citable Docs(3years)+Ref/Doc,3.224849868308241e+17,1.0399656673127696e+35
+208,H-Index+Total Docs(2017)+Total Docs(3years)+Citable Docs(3years)+Cites/Docs(2years),7.776024909971635e+17,6.046656340049963e+35
+209,H-Index+Total Docs(2017)+Total Docs(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,3.5696506118164456e+16,1.274240549044146e+33
+210,H-Index+Total Docs(2017)+Total Docs(3years)+Total Cites(3years),1.4169463728093578e+49,2.007737023417596e+98
+211,H-Index+Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Ref/Doc,1.2087048760400266e+17,1.4609674773629268e+34
+212,H-Index+Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Cites/Docs(2years),3.345426974251554e+17,1.1191881640049942e+35
+213,H-Index+Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,2.55893607622137e+17,6.548153842187244e+34
+214,H-Index+Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,1.8385921590817917e+18,3.38042112743704e+36
+215,H-Index+Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),9.285106836924987e+33,8.621320897311111e+67
+216,H-Index+Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,3.666173360247101e+16,1.3440827107385527e+33
+217,H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Ref/Doc,1.5549588568854714e+17,2.417897046606566e+34
+218,H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Cites/Docs(2years),6.398344819216861e+17,4.093881642559906e+35
+219,H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Cites/Docs(2years)+Ref/Doc,1.3649115030800222e+17,1.8629834112401645e+34
+220,H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Citable Docs(3years)+Ref/Doc,1.273782896783363e+18,1.6225228681378165e+36
+221,H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,2.964263316089906e+16,8.786857007116313e+32
+222,H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Ref/Doc,8.296929828918839e+17,6.883904458600286e+35
+223,H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Cites/Docs(2years),2.908806574229279e+37,8.46115568627943e+74
+224,H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,9.409706488538096e+18,8.854257620043625e+37
+225,H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,1.0723669710612847e+18,1.1499709206231462e+36
+226,H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),1.1672348090024415e+19,1.362437099346968e+38
+227,H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,1.8982232196727775e+18,3.6032513917048913e+36
+228,SJR,1.6899693427419349,3.025810999855058
+229,SJR+Ref/Doc,4.692734635680918,22.191572981366765
+230,SJR+Cites/Docs(2years),0.3960860313200652,0.21939630652085204
+231,SJR+Cites/Docs(2years)+Ref/Doc,1.388695696524883,2.089152511354468
+232,SJR+Citable Docs(3years),1.2924991098463594,1.8278008152068415
+233,SJR+Citable Docs(3years)+Ref/Doc,1.9164551211418897,3.842614851798425
+234,SJR+Citable Docs(3years)+Cites/Docs(2years),0.5826307406066055,0.42519195543768984
+235,SJR+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,0.8476985463727054,0.8485062896656741
+236,SJR+Total Cites(3years),5.715750549355061,32.83961896290013
+237,SJR+Total Cites(3years)+Ref/Doc,12.289757776317007,151.2079608209919
+238,SJR+Total Cites(3years)+Cites/Docs(2years),2.9768012266234134,9.03116016327411
+239,SJR+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,0.8012687032254383,0.7655306619790102
+240,SJR+Total Cites(3years)+Citable Docs(3years),0.5693449002667781,0.4913340397785633
+241,SJR+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,1.4042964474764312,2.1418631328423743
+242,SJR+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),0.4135338792508876,0.2346956855502562
+243,SJR+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,0.5653380019979088,0.4021782636572148
+244,SJR+Total Refs,1.044556929926352,1.2348479631955072
+245,SJR+Total Refs+Ref/Doc,9.083506643381975,82.67990756081193
+246,SJR+Total Refs+Cites/Docs(2years),1.1495044017958407,1.470441387349603
+247,SJR+Total Refs+Cites/Docs(2years)+Ref/Doc,1.2109690306915173,1.6193432048781007
+248,SJR+Total Refs+Citable Docs(3years),10.10626530807641,102.30641309767631
+249,SJR+Total Refs+Citable Docs(3years)+Ref/Doc,1.331513087723664,1.9314912753172915
+250,SJR+Total Refs+Citable Docs(3years)+Cites/Docs(2years),0.9915687882786467,1.124832404742819
+251,SJR+Total Refs+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,0.4004669616560296,0.2231295660094859
+252,SJR+Total Refs+Total Cites(3years),11.548899685761786,133.54689857223605
+253,SJR+Total Refs+Total Cites(3years)+Ref/Doc,1.4305140284422535,2.2087289822827727
+254,SJR+Total Refs+Total Cites(3years)+Cites/Docs(2years),0.6160517405491862,0.4715680318542675
+255,SJR+Total Refs+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,0.9831368376641522,1.1078428805555487
+256,SJR+Total Refs+Total Cites(3years)+Citable Docs(3years),1.725181783208395e+18,2.9762521851141034e+36
+257,SJR+Total Refs+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,112.23528655116452,12596.92936184246
+258,SJR+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),118.64336777108018,14076.41853068425
+259,SJR+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,149.15636835891615,22247.79203664114
+260,SJR+Total Docs(3years),0.7115472092678929,0.6150021954066223
+261,SJR+Total Docs(3years)+Ref/Doc,1.1185969819497084,1.3986147610704305
+262,SJR+Total Docs(3years)+Cites/Docs(2years),0.5343720597988431,0.36368260025709626
+263,SJR+Total Docs(3years)+Cites/Docs(2years)+Ref/Doc,0.4891520345058518,0.31135971437833165
+264,SJR+Total Docs(3years)+Citable Docs(3years),895.2987033583678,801559.9380497945
+265,SJR+Total Docs(3years)+Citable Docs(3years)+Ref/Doc,0.7009518116108282,0.5983037458945071
+266,SJR+Total Docs(3years)+Citable Docs(3years)+Cites/Docs(2years),1.3067784337446726,1.8653872072217978
+267,SJR+Total Docs(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,30.025140843319075,901.6788972815938
+268,SJR+Total Docs(3years)+Total Cites(3years),5.060955116730719,25.78308131401032
+269,SJR+Total Docs(3years)+Total Cites(3years)+Ref/Doc,0.32188516489624075,0.1703962527707417
+270,SJR+Total Docs(3years)+Total Cites(3years)+Cites/Docs(2years),0.5771775440227522,0.4178173908930722
+271,SJR+Total Docs(3years)+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,0.9917618987600545,1.1534062842795982
+272,SJR+Total Docs(3years)+Total Cites(3years)+Citable Docs(3years),1.6688959168063306e+17,2.785213581132836e+34
+273,SJR+Total Docs(3years)+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,0.9166026426760278,0.9762448706527815
+274,SJR+Total Docs(3years)+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),28.679360300384065,822.6755218596928
+275,SJR+Total Docs(3years)+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,5.782596055821836,33.60823176525368
+276,SJR+Total Docs(3years)+Total Refs,1.6517598230940989,2.8981251336352996
+277,SJR+Total Docs(3years)+Total Refs+Ref/Doc,1.1720712040620311,1.524173549269199
+278,SJR+Total Docs(3years)+Total Refs+Cites/Docs(2years),0.6098489745699063,0.4628300081815553
+279,SJR+Total Docs(3years)+Total Refs+Cites/Docs(2years)+Ref/Doc,0.8480319406910605,0.8491039258142081
+280,SJR+Total Docs(3years)+Total Refs+Citable Docs(3years),7.39945967836304e+16,5.47520035317207e+33
+281,SJR+Total Docs(3years)+Total Refs+Citable Docs(3years)+Ref/Doc,1284.9365899669679,1651062.210050562
+282,SJR+Total Docs(3years)+Total Refs+Citable Docs(3years)+Cites/Docs(2years),37.08886692879008,1375.753864681945
+283,SJR+Total Docs(3years)+Total Refs+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,4.5909869750165795,21.246976025219325
+284,SJR+Total Docs(3years)+Total Refs+Total Cites(3years),3.1371869092158476e+16,9.841941703355331e+32
+285,SJR+Total Docs(3years)+Total Refs+Total Cites(3years)+Ref/Doc,58.7571451888634,3452.57192536562
+286,SJR+Total Docs(3years)+Total Refs+Total Cites(3years)+Cites/Docs(2years),41.714401582125966,1740.2611139753208
+287,SJR+Total Docs(3years)+Total Refs+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,8.55701651336487,73.39234623044649
+288,SJR+Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years),5.1164888713440224e+17,2.6178458370587092e+35
+289,SJR+Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,3218474304486020.5,1.0358576848636773e+31
+290,SJR+Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),2.2831287747200508e+16,5.212677001954682e+32
+291,SJR+Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,6.301921033347147,39.88402333099065
+292,SJR+Total Docs(2017),1.6117510977487874,2.7675562215418714
+293,SJR+Total Docs(2017)+Ref/Doc,0.7149720115030105,0.6809995976801124
+294,SJR+Total Docs(2017)+Cites/Docs(2years),1.1031020138569132,1.3633733028858273
+295,SJR+Total Docs(2017)+Cites/Docs(2years)+Ref/Doc,1.0001101007007624,1.1421607670583924
+296,SJR+Total Docs(2017)+Citable Docs(3years),0.38280090662310107,0.2088182195844178
+297,SJR+Total Docs(2017)+Citable Docs(3years)+Ref/Doc,1.4848840454867875,2.3695987168813453
+298,SJR+Total Docs(2017)+Citable Docs(3years)+Cites/Docs(2years),2.3136291738358965,5.522694574472021
+299,SJR+Total Docs(2017)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,0.3917354063232643,0.21582296280248509
+300,SJR+Total Docs(2017)+Total Cites(3years),3.076949340996774,9.637431867507928
+301,SJR+Total Docs(2017)+Total Cites(3years)+Ref/Doc,1.3044779577435615,1.859303369026737
+302,SJR+Total Docs(2017)+Total Cites(3years)+Cites/Docs(2years),0.4089791256234225,0.23054922043240125
+303,SJR+Total Docs(2017)+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,2.549260220627014,6.668542292918736
+304,SJR+Total Docs(2017)+Total Cites(3years)+Citable Docs(3years),1.0927957867777053e+18,1.1942026315990966e+36
+305,SJR+Total Docs(2017)+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,42.1441364849219,1776.298054680173
+306,SJR+Total Docs(2017)+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),21.098961292946957,445.3359822617213
+307,SJR+Total Docs(2017)+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,5.832679626449586,34.18996624524751
+308,SJR+Total Docs(2017)+Total Refs,402.2919259079589,161838.96346535534
+309,SJR+Total Docs(2017)+Total Refs+Ref/Doc,14.369275674631396,206.64589803400114
+310,SJR+Total Docs(2017)+Total Refs+Cites/Docs(2years),119.82367662304125,14357.883294083602
+311,SJR+Total Docs(2017)+Total Refs+Cites/Docs(2years)+Ref/Doc,0.34168379523003956,0.22287213697474623
+312,SJR+Total Docs(2017)+Total Refs+Citable Docs(3years),4.6745371319330144e+17,2.1851297397820367e+35
+313,SJR+Total Docs(2017)+Total Refs+Citable Docs(3years)+Ref/Doc,13.011315434017868,169.4641439439592
+314,SJR+Total Docs(2017)+Total Refs+Citable Docs(3years)+Cites/Docs(2years),9.864426663980781,97.4767280295025
+315,SJR+Total Docs(2017)+Total Refs+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,0.847783794028769,0.8885519818652651
+316,SJR+Total Docs(2017)+Total Refs+Total Cites(3years),5.5735174580718976e+17,3.1064096855432427e+35
+317,SJR+Total Docs(2017)+Total Refs+Total Cites(3years)+Ref/Doc,53.434339893139786,2855.3984944360386
+318,SJR+Total Docs(2017)+Total Refs+Total Cites(3years)+Cites/Docs(2years),50.73976323744427,2574.6933880123493
+319,SJR+Total Docs(2017)+Total Refs+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,7.3810943291119875,54.65036811569659
+320,SJR+Total Docs(2017)+Total Refs+Total Cites(3years)+Citable Docs(3years),3.260242490172525e+18,1.0629181094726398e+37
+321,SJR+Total Docs(2017)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,2.953618176984843e+17,8.723860335415291e+34
+322,SJR+Total Docs(2017)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),5.110089307271596e+17,2.61130127282916e+35
+323,SJR+Total Docs(2017)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,60.771005877667285,3693.2849700039187
+324,SJR+Total Docs(2017)+Total Docs(3years),1.6904630513143224,3.02747994830638
+325,SJR+Total Docs(2017)+Total Docs(3years)+Ref/Doc,0.4110769504162142,0.2324493698014545
+326,SJR+Total Docs(2017)+Total Docs(3years)+Cites/Docs(2years),0.8688035813926189,0.8868574328592754
+327,SJR+Total Docs(2017)+Total Docs(3years)+Cites/Docs(2years)+Ref/Doc,0.35430366328105933,0.18860064441745164
+328,SJR+Total Docs(2017)+Total Docs(3years)+Citable Docs(3years),3.4462266578676744e+16,1.1876478177397822e+33
+329,SJR+Total Docs(2017)+Total Docs(3years)+Citable Docs(3years)+Ref/Doc,40.994845353113554,1680.747160146142
+330,SJR+Total Docs(2017)+Total Docs(3years)+Citable Docs(3years)+Cites/Docs(2years),3.621412934466623,13.284446262369617
+331,SJR+Total Docs(2017)+Total Docs(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,4.6593953597410405,21.8797797388238
+332,SJR+Total Docs(2017)+Total Docs(3years)+Total Cites(3years),3.409542715935812e+17,1.1624981531790914e+35
+333,SJR+Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Ref/Doc,10.682579288158005,114.2873148682299
+334,SJR+Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Cites/Docs(2years),76.02768352096258,5780.378476184095
+335,SJR+Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,1.0983287683271918,1.3526204271519788
+336,SJR+Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Citable Docs(3years),4.741574647339759e+18,2.248253013629519e+37
+337,SJR+Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,5.641323999672663e+18,3.1824536469282777e+37
+338,SJR+Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),2.376401937905922e+17,5.64728617048304e+34
+339,SJR+Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,42.675913808407046,1821.403434003034
+340,SJR+Total Docs(2017)+Total Docs(3years)+Total Refs,5.7275008040090003e+17,3.2804265459923683e+35
+341,SJR+Total Docs(2017)+Total Docs(3years)+Total Refs+Ref/Doc,71.69213989066411,5139.932736722997
+342,SJR+Total Docs(2017)+Total Docs(3years)+Total Refs+Cites/Docs(2years),59.87422783156692,3585.0929730468324
+343,SJR+Total Docs(2017)+Total Docs(3years)+Total Refs+Cites/Docs(2years)+Ref/Doc,3.453120334859297,12.093854667466232
+344,SJR+Total Docs(2017)+Total Docs(3years)+Total Refs+Citable Docs(3years),4.498580138567772e+16,2.0237223263116254e+33
+345,SJR+Total Docs(2017)+Total Docs(3years)+Total Refs+Citable Docs(3years)+Ref/Doc,5.132255855562956e+16,2.634005016696028e+33
+346,SJR+Total Docs(2017)+Total Docs(3years)+Total Refs+Citable Docs(3years)+Cites/Docs(2years),4.459881386209464e+17,1.98905419790577e+35
+347,SJR+Total Docs(2017)+Total Docs(3years)+Total Refs+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,7.928267922916553,63.02724687799498
+348,SJR+Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years),4.530581114712115e+19,2.052616523698608e+39
+349,SJR+Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Ref/Doc,3.2695997793957985e+18,1.069028271742511e+37
+350,SJR+Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Cites/Docs(2years),9.775345557689627e+17,9.555738077224178e+35
+351,SJR+Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,244.52802226847194,59794.12348915078
+352,SJR+Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years),8.090736905013509e+17,6.5460023666148e+35
+353,SJR+Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,2.8055034524801027e+17,7.870849621877773e+34
+354,SJR+Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),3.6120104161038177e+18,1.3046619246042457e+37
+355,SJR+Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,9.848569938158703e+17,9.699432982680275e+35
+356,SJR+H-Index,2.813163165667564,8.083701617116203
+357,SJR+H-Index+Ref/Doc,2.080691778031516,4.4990928956154015
+358,SJR+H-Index+Cites/Docs(2years),0.5658365638675616,0.4028265540778666
+359,SJR+H-Index+Cites/Docs(2years)+Ref/Doc,0.683462908921324,0.5714393025706203
+360,SJR+H-Index+Citable Docs(3years),29.562804430163357,874.1292203965332
+361,SJR+H-Index+Citable Docs(3years)+Ref/Doc,0.3373076670301217,0.2169794862022839
+362,SJR+H-Index+Citable Docs(3years)+Cites/Docs(2years),179.05599602959177,32061.219528769623
+363,SJR+H-Index+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,0.339082004535296,0.21939240573128693
+364,SJR+H-Index+Total Cites(3years),14.175254654439001,201.10765913864208
+365,SJR+H-Index+Total Cites(3years)+Ref/Doc,4.997704586321944,25.146865752590845
+366,SJR+H-Index+Total Cites(3years)+Cites/Docs(2years),4.7919620947750445,23.13271533820831
+367,SJR+H-Index+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,1.870220758594444,3.6675403063250283
+368,SJR+H-Index+Total Cites(3years)+Citable Docs(3years),2.195385785207684e+16,4.819718745891953e+32
+369,SJR+H-Index+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,1.2261386788173687,1.6732306801394539
+370,SJR+H-Index+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),2.4280800657809998,6.065387426290506
+371,SJR+H-Index+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,1.759945963456594,3.267224414734607
+372,SJR+H-Index+Total Refs,1.2332707766013289,1.6907714288662945
+373,SJR+H-Index+Total Refs+Ref/Doc,1.306305119311976,1.8641345865950707
+374,SJR+H-Index+Total Refs+Cites/Docs(2years),2.324396386185156,5.572633180558069
+375,SJR+H-Index+Total Refs+Cites/Docs(2years)+Ref/Doc,0.734226573380939,0.6518179025776131
+376,SJR+H-Index+Total Refs+Citable Docs(3years),7.475914368796082e+16,5.588929564957184e+33
+377,SJR+H-Index+Total Refs+Citable Docs(3years)+Ref/Doc,2.6504394524315873,7.194643911453299
+378,SJR+H-Index+Total Refs+Citable Docs(3years)+Cites/Docs(2years),18.618443410138568,346.8162496369797
+379,SJR+H-Index+Total Refs+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,10.287690542173104,106.00639131196533
+380,SJR+H-Index+Total Refs+Total Cites(3years),8.952927771125022e+16,8.015491567498171e+33
+381,SJR+H-Index+Total Refs+Total Cites(3years)+Ref/Doc,21.794249362073803,475.15911987670216
+382,SJR+H-Index+Total Refs+Total Cites(3years)+Cites/Docs(2years),7.938913612373622,63.19616396517864
+383,SJR+H-Index+Total Refs+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,5.788028012364528,33.67108289236397
+384,SJR+H-Index+Total Refs+Total Cites(3years)+Citable Docs(3years),4.2002792543933824e+17,1.764234581488736e+35
+385,SJR+H-Index+Total Refs+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,7.981452863761627e+17,6.370358981644892e+35
+386,SJR+H-Index+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),3752250317127729.0,1.407938244238512e+31
+387,SJR+H-Index+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,167.79175987390036,28154.24449620104
+388,SJR+H-Index+Total Docs(3years),6.277949144486457,39.58246008120569
+389,SJR+H-Index+Total Docs(3years)+Ref/Doc,0.674367718923125,0.5577452439611852
+390,SJR+H-Index+Total Docs(3years)+Cites/Docs(2years),16.470232406391776,271.43837014100507
+391,SJR+H-Index+Total Docs(3years)+Cites/Docs(2years)+Ref/Doc,0.3239744062880151,0.1979156177458874
+392,SJR+H-Index+Total Docs(3years)+Citable Docs(3years),1.8557317352497933e+17,3.443740273213192e+34
+393,SJR+H-Index+Total Docs(3years)+Citable Docs(3years)+Ref/Doc,26.91486109893402,724.5795625953585
+394,SJR+H-Index+Total Docs(3years)+Citable Docs(3years)+Cites/Docs(2years),3.4593510964578846,12.136924629011814
+395,SJR+H-Index+Total Docs(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,0.5166569513966772,0.34244369756785165
+396,SJR+H-Index+Total Docs(3years)+Total Cites(3years),1.8951681983959446e+17,3.591662500211327e+34
+397,SJR+H-Index+Total Docs(3years)+Total Cites(3years)+Ref/Doc,15.843250834895326,251.17841163785891
+398,SJR+H-Index+Total Docs(3years)+Total Cites(3years)+Cites/Docs(2years),9.809464149681842,96.3954015243407
+399,SJR+H-Index+Total Docs(3years)+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,0.4463252519509495,0.2654810768055014
+400,SJR+H-Index+Total Docs(3years)+Total Cites(3years)+Citable Docs(3years),9.912347141111633e+17,9.82546258459033e+35
+401,SJR+H-Index+Total Docs(3years)+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,7.14879905932933e+16,5.110532799066787e+33
+402,SJR+H-Index+Total Docs(3years)+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),1.1771423029000662e+17,1.3856640012768778e+34
+403,SJR+H-Index+Total Docs(3years)+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,7.7856304140371995,60.78585556442851
+404,SJR+H-Index+Total Docs(3years)+Total Refs,6.993984812184356e+17,4.891582355306511e+35
+405,SJR+H-Index+Total Docs(3years)+Total Refs+Ref/Doc,53.651816390146784,2878.6872165824716
+406,SJR+H-Index+Total Docs(3years)+Total Refs+Cites/Docs(2years),7.098600167781164,50.55993896247019
+407,SJR+H-Index+Total Docs(3years)+Total Refs+Cites/Docs(2years)+Ref/Doc,2.4108126424201903,5.981832217300464
+408,SJR+H-Index+Total Docs(3years)+Total Refs+Citable Docs(3years),2.6313101474278106e+17,6.923793091956552e+34
+409,SJR+H-Index+Total Docs(3years)+Total Refs+Citable Docs(3years)+Ref/Doc,7021111990049791.0,4.929601357682093e+31
+410,SJR+H-Index+Total Docs(3years)+Total Refs+Citable Docs(3years)+Cites/Docs(2years),2.374008773441531e+16,5.635917656377324e+32
+411,SJR+H-Index+Total Docs(3years)+Total Refs+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,1.0428722840485938,1.257397221284179
+412,SJR+H-Index+Total Docs(3years)+Total Refs+Total Cites(3years),2.946328709130741e+17,8.680852862248058e+34
+413,SJR+H-Index+Total Docs(3years)+Total Refs+Total Cites(3years)+Ref/Doc,1.3009475966632115e+18,1.6924646492637873e+36
+414,SJR+H-Index+Total Docs(3years)+Total Refs+Total Cites(3years)+Cites/Docs(2years),6.533002495183383e+16,4.2680121602072546e+33
+415,SJR+H-Index+Total Docs(3years)+Total Refs+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,40.53081804135907,1642.9170257222074
+416,SJR+H-Index+Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years),8.724898683022824e+17,7.612385702901333e+35
+417,SJR+H-Index+Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,2.881258724771297e+17,8.301651839070663e+34
+418,SJR+H-Index+Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),1.6530911761185174e+17,2.7327104365609e+34
+419,SJR+H-Index+Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,1.5939033374992195e+17,2.540527849291141e+34
+420,SJR+H-Index+Total Docs(2017),1.8909315850515058,3.745436879792849
+421,SJR+H-Index+Total Docs(2017)+Ref/Doc,0.7632751986633424,0.7000960652437294
+422,SJR+H-Index+Total Docs(2017)+Cites/Docs(2years),1.0041343077336486,1.1503789529240143
+423,SJR+H-Index+Total Docs(2017)+Cites/Docs(2years)+Ref/Doc,0.4633746304609753,0.3624732795027711
+424,SJR+H-Index+Total Docs(2017)+Citable Docs(3years),8.818779083629222e+16,7.777086452585621e+33
+425,SJR+H-Index+Total Docs(2017)+Citable Docs(3years)+Ref/Doc,7.6895433963471485,59.298892264753505
+426,SJR+H-Index+Total Docs(2017)+Citable Docs(3years)+Cites/Docs(2years),16.394529898798318,268.9504252230394
+427,SJR+H-Index+Total Docs(2017)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,9.032507569241826,81.75600760885837
+428,SJR+H-Index+Total Docs(2017)+Total Cites(3years),9.345139371992352e+17,8.733162988196185e+35
+429,SJR+H-Index+Total Docs(2017)+Total Cites(3years)+Ref/Doc,14.284200149074758,204.2081885192749
+430,SJR+H-Index+Total Docs(2017)+Total Cites(3years)+Cites/Docs(2years),5.0773176325158,25.948968961903276
+431,SJR+H-Index+Total Docs(2017)+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,3.3336181003062526,11.282824259136916
+432,SJR+H-Index+Total Docs(2017)+Total Cites(3years)+Citable Docs(3years),4.39952159578772e+18,1.9355790271802537e+37
+433,SJR+H-Index+Total Docs(2017)+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,760800246564124.0,5.788170151720328e+29
+434,SJR+H-Index+Total Docs(2017)+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),2.7088973723306664e+16,7.338124973820018e+32
+435,SJR+H-Index+Total Docs(2017)+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,21.99245855959636,483.83804811601055
+436,SJR+H-Index+Total Docs(2017)+Total Refs,5.018195743281497e+18,2.5182288517888393e+37
+437,SJR+H-Index+Total Docs(2017)+Total Refs+Ref/Doc,52.1531921259525,2720.125263546962
+438,SJR+H-Index+Total Docs(2017)+Total Refs+Cites/Docs(2years),96304.7569716356,9274606215.535603
+439,SJR+H-Index+Total Docs(2017)+Total Refs+Cites/Docs(2years)+Ref/Doc,4.184495705586622,17.679818930520316
+440,SJR+H-Index+Total Docs(2017)+Total Refs+Citable Docs(3years),6.474412785725825e+17,4.1918020919969984e+35
+441,SJR+H-Index+Total Docs(2017)+Total Refs+Citable Docs(3years)+Ref/Doc,5.865951197571072e+16,3.4409383452285483e+33
+442,SJR+H-Index+Total Docs(2017)+Total Refs+Citable Docs(3years)+Cites/Docs(2years),1.0975330130915319e+18,1.2045787148257733e+36
+443,SJR+H-Index+Total Docs(2017)+Total Refs+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,149.30354500303372,22291.718365093362
+444,SJR+H-Index+Total Docs(2017)+Total Refs+Total Cites(3years),4.0549021340996695e+18,1.6442231317125964e+37
+445,SJR+H-Index+Total Docs(2017)+Total Refs+Total Cites(3years)+Ref/Doc,2.415277074266729e+17,5.833563345478485e+34
+446,SJR+H-Index+Total Docs(2017)+Total Refs+Total Cites(3years)+Cites/Docs(2years),1.4623227939892682e+17,2.1383879538205917e+34
+447,SJR+H-Index+Total Docs(2017)+Total Refs+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,54.42417248105137,2962.160364867676
+448,SJR+H-Index+Total Docs(2017)+Total Refs+Total Cites(3years)+Citable Docs(3years),2.308966604508114e+16,5.3313267807337656e+32
+449,SJR+H-Index+Total Docs(2017)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,6.492811553834928e+16,4.215660187361239e+33
+450,SJR+H-Index+Total Docs(2017)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),1.7825932271315218e+18,3.177638613415197e+36
+451,SJR+H-Index+Total Docs(2017)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,1.1459447289400997e+17,1.3131893217856024e+34
+452,SJR+H-Index+Total Docs(2017)+Total Docs(3years),1.807419904308159e+17,3.2667667104893194e+34
+453,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Ref/Doc,94.49352117388507,8929.19535845991
+454,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Cites/Docs(2years),0.40494886610961506,0.2961889764767887
+455,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Cites/Docs(2years)+Ref/Doc,0.833946378263864,0.823686159482924
+456,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Citable Docs(3years),9.795619740507136e+17,9.595416610061283e+35
+457,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Citable Docs(3years)+Ref/Doc,5.201635923933732e+16,2.705701628515804e+33
+458,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Citable Docs(3years)+Cites/Docs(2years),4189965373656575.5,1.7555809832441081e+31
+459,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,39.46183206930602,1557.4060048865554
+460,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Total Cites(3years),1.3434845335016597e+17,1.8049506917581578e+34
+461,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Ref/Doc,1.0286302132389752e+17,1.0580801155880604e+34
+462,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Cites/Docs(2years),1.03897704302108e+17,1.079473295924822e+34
+463,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,13.595508582285262,185.00766823143962
+464,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Citable Docs(3years),1.2704216864505461e+17,1.6139712614038572e+34
+465,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,1.596566394783618e+18,2.5490242529523586e+36
+466,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),7.587766059766267e+17,5.757419377774128e+35
+467,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,1.679860566384685e+17,2.8219315224942865e+34
+468,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs,4.6999202014770854e+17,2.2089249900252496e+35
+469,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Ref/Doc,6.211714165544297e+17,3.85853928744235e+35
+470,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Cites/Docs(2years),1.0572024193172536e+17,1.1176769554102552e+34
+471,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Cites/Docs(2years)+Ref/Doc,21.055044645573258,443.48471964753094
+472,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Citable Docs(3years),3444971449313536.5,1.186782828658541e+31
+473,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Citable Docs(3years)+Ref/Doc,2.3221628917360768e+17,5.392440495756076e+34
+474,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Citable Docs(3years)+Cites/Docs(2years),3.210684746844363e+18,1.030849654361908e+37
+475,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,4.109450577219098e+17,1.6887584046606477e+35
+476,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years),1.5800580734130045e+18,2.4965835153576257e+36
+477,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Ref/Doc,4.277338440733894e+17,1.8295624136579724e+35
+478,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Cites/Docs(2years),3.011776863975836e+17,9.070799878380157e+34
+479,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Cites/Docs(2years)+Ref/Doc,9602930078012152.0,9.221626608319013e+31
+480,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years),1.9506490947116528e+17,3.805031890699385e+34
+481,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Ref/Doc,4.34391492322179e+17,1.8869596860188982e+35
+482,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years),2.4228691750269153e+18,5.870295039295628e+36
+483,SJR+H-Index+Total Docs(2017)+Total Docs(3years)+Total Refs+Total Cites(3years)+Citable Docs(3years)+Cites/Docs(2years)+Ref/Doc,1.2115768142578075e+17,1.4679183768471005e+34
